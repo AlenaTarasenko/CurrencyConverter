@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8432AF9220F334A200F7BC39 /* ANBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432AF9020F334A200F7BC39 /* ANBankDetails.m */; };
+		843D845720F49F2B00EA6226 /* double-horizontal-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D845520F49F2A00EA6226 /* double-horizontal-arrow.png */; };
+		843D845820F49F2B00EA6226 /* checkmarkCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D845620F49F2B00EA6226 /* checkmarkCell.png */; };
+		844F810020EF84BE00696352 /* ANRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F80FF20EF84BE00696352 /* ANRSSParser.m */; };
+		845EBCC820EDFC90004EDEDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EBCC720EDFC90004EDEDC /* AppDelegate.m */; };
+		845EBCCB20EDFC90004EDEDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EBCCA20EDFC90004EDEDC /* ViewController.m */; };
+		845EBCCE20EDFC90004EDEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845EBCCC20EDFC90004EDEDC /* Main.storyboard */; };
+		845EBCD020EDFC90004EDEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845EBCCF20EDFC90004EDEDC /* Assets.xcassets */; };
+		845EBCD320EDFC90004EDEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845EBCD120EDFC90004EDEDC /* LaunchScreen.storyboard */; };
+		845EBCD620EDFC90004EDEDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EBCD520EDFC90004EDEDC /* main.m */; };
+		845EBCE220EF3127004EDEDC /* ANValute.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EBCE120EF3126004EDEDC /* ANValute.m */; };
+		845EBCE520EF34D2004EDEDC /* ANNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EBCE420EF34D2004EDEDC /* ANNetworkManager.m */; };
+		84993D4D20F20E3500BCE0D5 /* ANConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84993D4C20F20E3500BCE0D5 /* ANConverterViewController.m */; };
+		84993D5020F215A700BCE0D5 /* ANValuteChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84993D4F20F215A700BCE0D5 /* ANValuteChangeViewController.m */; };
+		84993D5320F2186100BCE0D5 /* ANValuteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84993D5220F2186100BCE0D5 /* ANValuteTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8432AF9020F334A200F7BC39 /* ANBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBankDetails.m; sourceTree = "<group>"; };
+		8432AF9120F334A200F7BC39 /* ANBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBankDetails.h; sourceTree = "<group>"; };
+		843D845520F49F2A00EA6226 /* double-horizontal-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "double-horizontal-arrow.png"; sourceTree = "<group>"; };
+		843D845620F49F2B00EA6226 /* checkmarkCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkCell.png; sourceTree = "<group>"; };
+		844F80FE20EF84BE00696352 /* ANRSSParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANRSSParser.h; sourceTree = "<group>"; };
+		844F80FF20EF84BE00696352 /* ANRSSParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANRSSParser.m; sourceTree = "<group>"; };
+		845EBCC320EDFC8F004EDEDC /* ANCurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANCurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845EBCC620EDFC90004EDEDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845EBCC720EDFC90004EDEDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845EBCC920EDFC90004EDEDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		845EBCCA20EDFC90004EDEDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		845EBCCD20EDFC90004EDEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845EBCCF20EDFC90004EDEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845EBCD220EDFC90004EDEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845EBCD420EDFC90004EDEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845EBCD520EDFC90004EDEDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845EBCE020EF3126004EDEDC /* ANValute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANValute.h; sourceTree = "<group>"; };
+		845EBCE120EF3126004EDEDC /* ANValute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANValute.m; sourceTree = "<group>"; };
+		845EBCE320EF34D2004EDEDC /* ANNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANNetworkManager.h; sourceTree = "<group>"; };
+		845EBCE420EF34D2004EDEDC /* ANNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANNetworkManager.m; sourceTree = "<group>"; };
+		84993D4B20F20E3400BCE0D5 /* ANConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANConverterViewController.h; sourceTree = "<group>"; };
+		84993D4C20F20E3500BCE0D5 /* ANConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANConverterViewController.m; sourceTree = "<group>"; };
+		84993D4E20F215A700BCE0D5 /* ANValuteChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANValuteChangeViewController.h; sourceTree = "<group>"; };
+		84993D4F20F215A700BCE0D5 /* ANValuteChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANValuteChangeViewController.m; sourceTree = "<group>"; };
+		84993D5120F2186100BCE0D5 /* ANValuteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANValuteTableViewCell.h; sourceTree = "<group>"; };
+		84993D5220F2186100BCE0D5 /* ANValuteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANValuteTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845EBCC020EDFC8F004EDEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844F810420EF852C00696352 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845EBCE020EF3126004EDEDC /* ANValute.h */,
+				845EBCE120EF3126004EDEDC /* ANValute.m */,
+				8432AF9120F334A200F7BC39 /* ANBankDetails.h */,
+				8432AF9020F334A200F7BC39 /* ANBankDetails.m */,
+				845EBCE320EF34D2004EDEDC /* ANNetworkManager.h */,
+				845EBCE420EF34D2004EDEDC /* ANNetworkManager.m */,
+				844F80FE20EF84BE00696352 /* ANRSSParser.h */,
+				844F80FF20EF84BE00696352 /* ANRSSParser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		845C0EA320F1E5B800A4A16A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				845EBCC920EDFC90004EDEDC /* ViewController.h */,
+				845EBCCA20EDFC90004EDEDC /* ViewController.m */,
+				84993D4B20F20E3400BCE0D5 /* ANConverterViewController.h */,
+				84993D4C20F20E3500BCE0D5 /* ANConverterViewController.m */,
+				84993D4E20F215A700BCE0D5 /* ANValuteChangeViewController.h */,
+				84993D4F20F215A700BCE0D5 /* ANValuteChangeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		845EBCBA20EDFC8F004EDEDC = {
+			isa = PBXGroup;
+			children = (
+				845EBCC520EDFC90004EDEDC /* ANCurrencyConverter */,
+				845EBCC420EDFC8F004EDEDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845EBCC420EDFC8F004EDEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845EBCC320EDFC8F004EDEDC /* ANCurrencyConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845EBCC520EDFC90004EDEDC /* ANCurrencyConverter */ = {
+			isa = PBXGroup;
+			children = (
+				845EBCC620EDFC90004EDEDC /* AppDelegate.h */,
+				845EBCC720EDFC90004EDEDC /* AppDelegate.m */,
+				844F810420EF852C00696352 /* Model */,
+				845C0EA320F1E5B800A4A16A /* Controllers */,
+				845EBCCC20EDFC90004EDEDC /* Main.storyboard */,
+				84993D5120F2186100BCE0D5 /* ANValuteTableViewCell.h */,
+				84993D5220F2186100BCE0D5 /* ANValuteTableViewCell.m */,
+				845EBCCF20EDFC90004EDEDC /* Assets.xcassets */,
+				845EBCD120EDFC90004EDEDC /* LaunchScreen.storyboard */,
+				845EBCD420EDFC90004EDEDC /* Info.plist */,
+				845EBCD520EDFC90004EDEDC /* main.m */,
+				845EBCDC20EE1478004EDEDC /* Pictures */,
+			);
+			path = ANCurrencyConverter;
+			sourceTree = "<group>";
+		};
+		845EBCDC20EE1478004EDEDC /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				843D845620F49F2B00EA6226 /* checkmarkCell.png */,
+				843D845520F49F2A00EA6226 /* double-horizontal-arrow.png */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845EBCC220EDFC8F004EDEDC /* ANCurrencyConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845EBCD920EDFC90004EDEDC /* Build configuration list for PBXNativeTarget "ANCurrencyConverter" */;
+			buildPhases = (
+				845EBCBF20EDFC8F004EDEDC /* Sources */,
+				845EBCC020EDFC8F004EDEDC /* Frameworks */,
+				845EBCC120EDFC8F004EDEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANCurrencyConverter;
+			productName = ANCurrencyConverter;
+			productReference = 845EBCC320EDFC8F004EDEDC /* ANCurrencyConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845EBCBB20EDFC8F004EDEDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alena Tarasenko";
+				TargetAttributes = {
+					845EBCC220EDFC8F004EDEDC = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 845EBCBE20EDFC8F004EDEDC /* Build configuration list for PBXProject "ANCurrencyConverter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845EBCBA20EDFC8F004EDEDC;
+			productRefGroup = 845EBCC420EDFC8F004EDEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845EBCC220EDFC8F004EDEDC /* ANCurrencyConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845EBCC120EDFC8F004EDEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843D845720F49F2B00EA6226 /* double-horizontal-arrow.png in Resources */,
+				843D845820F49F2B00EA6226 /* checkmarkCell.png in Resources */,
+				845EBCD320EDFC90004EDEDC /* LaunchScreen.storyboard in Resources */,
+				845EBCD020EDFC90004EDEDC /* Assets.xcassets in Resources */,
+				845EBCCE20EDFC90004EDEDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845EBCBF20EDFC8F004EDEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845EBCCB20EDFC90004EDEDC /* ViewController.m in Sources */,
+				84993D5320F2186100BCE0D5 /* ANValuteTableViewCell.m in Sources */,
+				845EBCE220EF3127004EDEDC /* ANValute.m in Sources */,
+				8432AF9220F334A200F7BC39 /* ANBankDetails.m in Sources */,
+				845EBCE520EF34D2004EDEDC /* ANNetworkManager.m in Sources */,
+				84993D4D20F20E3500BCE0D5 /* ANConverterViewController.m in Sources */,
+				845EBCD620EDFC90004EDEDC /* main.m in Sources */,
+				84993D5020F215A700BCE0D5 /* ANValuteChangeViewController.m in Sources */,
+				844F810020EF84BE00696352 /* ANRSSParser.m in Sources */,
+				845EBCC820EDFC90004EDEDC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845EBCCC20EDFC90004EDEDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845EBCCD20EDFC90004EDEDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845EBCD120EDFC90004EDEDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845EBCD220EDFC90004EDEDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845EBCD720EDFC90004EDEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		845EBCD820EDFC90004EDEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845EBCDA20EDFC90004EDEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZ23XT8HZ7;
+				INFOPLIST_FILE = ANCurrencyConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.ANCurrencyConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845EBCDB20EDFC90004EDEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZ23XT8HZ7;
+				INFOPLIST_FILE = ANCurrencyConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.ANCurrencyConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845EBCBE20EDFC8F004EDEDC /* Build configuration list for PBXProject "ANCurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845EBCD720EDFC90004EDEDC /* Debug */,
+				845EBCD820EDFC90004EDEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845EBCD920EDFC90004EDEDC /* Build configuration list for PBXNativeTarget "ANCurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845EBCDA20EDFC90004EDEDC /* Debug */,
+				845EBCDB20EDFC90004EDEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845EBCBB20EDFC8F004EDEDC /* Project object */;
+}
